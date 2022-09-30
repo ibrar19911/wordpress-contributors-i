@@ -1,16 +1,16 @@
 <?php
 /**
- * A class file
+ * A class file.
  *
- * @package WordPress Contributer
+ * @package WordPress Contributer.
  */
 
 if ( ! class_exists( 'WPCI_Enqueue_Styles_And_Scripts' ) ) {
 
 	/**
-	 * Class WPCI_Enqueue_Styles_And_Scripts
+	 * Class WPCI_Enqueue_Styles_And_Scripts.
 	 *
-	 * @package WordPress Contributer
+	 * @package WordPress Contributer.
 	 */
 	class WPCI_Enqueue_Styles_And_Scripts {
 
