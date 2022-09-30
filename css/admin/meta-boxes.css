@@ -1,0 +1,12 @@
+/**
+ * Contributors Metabox Styling
+ */
+
+.wpci-contributors-section .wpci-authors label {
+	display: block;
+	padding: 3px 5px;
+}
+
+.wpci-contributors-section .wpci-authors label:hover {
+	background-color: #f6f6f6;
+}

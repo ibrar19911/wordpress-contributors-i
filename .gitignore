@@ -3,4 +3,5 @@ composer.phar
 /wpcs/
 .travis.yml
 .phpcs.xml.dist
+.DS_Store
 .phpunit.result.cache
