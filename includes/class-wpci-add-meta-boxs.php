@@ -5,27 +5,27 @@
  * @package WordPress Contributer
  */
 
-if ( ! class_exists( 'WPCI_Add_Meta_Boxs' ) ) {
+if ( ! class_exists( 'WPCI_Add_Meta_Boxes' ) ) {
 
 	/**
-	 * Class WPCI_Add_Meta_Boxs
+	 * Class WPCI_Add_Meta_Boxes
 	 *
 	 * @package WordPress Contributer
 	 */
-	class WPCI_Add_Meta_Boxs {
+	class WPCI_Add_Meta_Boxes {
 
 		/**
 		 * Construct function for adding the required actions.
 		 */
 		public function __construct() {
-			add_action( 'add_meta_boxes', array( $this, 'add_custom_boxs' ) );
+			add_action( 'add_meta_boxes', array( $this, 'add_custom_boxes' ) );
 			add_action( 'save_post', array( $this, 'save_contributors' ) );
 		}
 
 		/**
 		 * Function to add meta boxes.
 		 */
-		public function add_custom_boxs() {
+		public function add_custom_boxes() {
 			add_meta_box(
 				'post-contributors',
 				__( 'Contributers' ),
@@ -127,5 +127,5 @@ if ( ! class_exists( 'WPCI_Add_Meta_Boxs' ) ) {
 
 	}
 
-	new WPCI_Add_Meta_Boxs();
+	new WPCI_Add_Meta_Boxes();
 }
