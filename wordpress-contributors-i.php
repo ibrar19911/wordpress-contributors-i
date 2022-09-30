@@ -20,4 +20,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 // File Includes.
-require_once 'includes/class-rt-add-meta-boxs.php';
+require_once 'includes/class-wpci-add-meta-boxs.php';
