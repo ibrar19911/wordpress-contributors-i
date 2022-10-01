@@ -1,1 +1,58 @@
+/*
+ * Contributors styling after content.
+ */
 
+.wpci-contributors-box {
+	background-color: #fafafa;
+	text-align: center;
+	padding: 30px 15px 15px 15px;
+	border: 1px dashed #020202;
+}
+
+.wpci-contributors-box h4.wpci-contributors-heading {
+	font-size: 25px;
+	font-weight: bold;
+	color: #333333;
+	margin: 0px 20px 25px 20px;
+}
+
+.wpci-contributors-box .wpci-contributors {
+	display: -webkit-flex;
+  	display: flex;
+	flex-wrap: wrap;
+}
+
+.wpci-contributors-box .wpci-contributors .wpci-contributor {
+	flex:  0 0 25%;
+	margin-bottom: 15px;
+}
+
+.wpci-contributors .wpci-contributor a {
+	display: block;
+	text-decoration: none;
+}
+
+.wpci-contributors .wpci-contributor a:hover {
+	text-decoration: underline;
+}
+
+.wpci-contributors .wpci-contributor a img {
+	border-radius: 50px;
+	transition: 0.25s all;
+}
+
+.wpci-contributors .wpci-contributor a:hover img {
+	border-radius: 0;
+}
+
+.wpci-contributors .wpci-contributor a span.wpci-username {
+	display: block;
+}
+
+@media (max-width: 575px){
+
+	.wpci-contributors-box .wpci-contributors .wpci-contributor {
+		flex:  0 0 50%;
+	}
+
+}

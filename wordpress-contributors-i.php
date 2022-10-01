@@ -24,3 +24,4 @@ define( 'WPCI_CSS_URL', plugins_url( 'wordpress-contributors-i' ) . '/css/' );
 // File Includes.
 require_once 'includes/class-wpci-add-meta-boxes.php';
 require_once 'includes/class-wpci-enqueue-styles-and-scripts.php';
+require_once 'includes/class-wpci-the-content-filters.php';
